@@ -1,9 +1,10 @@
 module.exports = {
-  title: "魇·无界投屏手册",
-  description: "承蒙时光不弃，感谢一切给予",
+  title: "速享手册",
+  description: "基于局域网的文件共享终端",
   themeConfig: {
     nav: [
       { text: "用户指南", link: "/guide/about/" },
+      { text: "TODO", link: "/guide/todo/" },
       { text: "官方主页", link: "http://nightmare.fun/screen/" },
       { text: "下载", link: "https://nightmare.fun/YanTool/resources/Remote/" },
       { text: "开发者Github", link: "https://github.com/mengyanshou/" },
@@ -16,12 +17,12 @@ module.exports = {
         "/guide/about/",
         "/guide/connect/",
         "/guide/good/",
-        "/guide/bugs/",
+        "/guide/todo/",
       ],
     },
   },
 
-  base: "/screen/docs/",
+  base: "/speedshare/docs/",
   displayAllHeaders: false, // 默认值：false
   activeHeaderLinks: true, // 默认值：true
 };

@@ -16,3 +16,6 @@ footer: © 2019-2020 梦魇兽 版权所有：蜀ICP备19028537号
 ::: danger
 建议可以给，但不要提需求！
 :::
+
+
+<iframe style="height: 2800px;width:100%;" src="https://nightmare.fun/speedshare/" frameborder="0" scrolling="no"></iframe>
