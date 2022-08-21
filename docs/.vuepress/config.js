@@ -1,7 +1,13 @@
 module.exports = {
   title: "速享手册",
   description: "基于局域网的文件共享终端",
+  theme: "reco",
+  head: [
+    ['link', { rel: 'icon', href: '/favicon.ico' }],
+    ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }]
+  ],
   themeConfig: {
+    // type: 'blog',
     nav: [
       { text: "用户指南", link: "/guide/about/" },
       { text: "TODO", link: "/guide/todo/" },
@@ -21,7 +27,6 @@ module.exports = {
       ],
     },
   },
-
   base: "/speedshare/docs/",
   displayAllHeaders: false, // 默认值：false
   activeHeaderLinks: true, // 默认值：true

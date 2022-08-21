@@ -1,6 +1,13 @@
 ---
 home: true
+bgImage: '/bg.svg'
+bgImageStyle: {
+  height: '95vh',
+  background-color: '#D9AFD9',
+  background-image: 'linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%)'
+}
 heroImage: /logo.png
+heroText: null
 actionText: 快速上手
 actionLink: /guide/about/
 features:
@@ -13,9 +20,7 @@ features:
 footer: © 2019-2020 梦魇兽 版权所有：蜀ICP备19028537号
 ---
 
+
 ::: danger
 建议可以给，但不要提需求！
 :::
-
-
-<iframe style="height: 2800px;width:100%;" src="https://nightmare.fun/speedshare/" frameborder="0" scrolling="no"></iframe>
